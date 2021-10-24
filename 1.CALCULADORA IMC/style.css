@@ -1,0 +1,30 @@
+/*CALCULADORA IMC*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    color: black;
+    background-color: #fcb823;
+
+    width: 300px;
+
+    margin: auto;
+    padding: 15px;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.500);
+
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+
+}
