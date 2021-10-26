@@ -10,30 +10,35 @@
 <body>
     <header>
         <h1>CALCULADORA IMC</h1>
-        <hr>
     </header>
+
+        <hr>
 
     <section>
         <div id="dados">
             <h2>Calculadora IMC</h2>
+
             <hr>
+        
             <!--Dados:-->
             Nome:
-            <input type="text" name="txtname" id="txtname"> <br><br>
+            <input type="text" name="nome" id="txtnome"> <br><br>
 
             Altura: 
-            <input type="number" name="txtnum" id="txtnum"> <br><br>
+            <input type="number" name="altura" id="txtalt"> <br><br>
 
             Peso:
-            <input type="number" name="txtpes" id="txtpes"> <br><br>
+            <input type="number" name="peso" id="txtpes"> <br><br>
 
             <!--Botão:-->
-            <input type="button" value="Calcular" onclick="calcular()">
-
+            <input type="button" value="Calcular" id="calc" onclick="calcular()">
 
         </div>
+
             <hr>
-        <div id="resposta">
+
+            <!--Resultado:-->
+        <div id="res">
             Resultado do cálculo...
         </div>
     </section>
