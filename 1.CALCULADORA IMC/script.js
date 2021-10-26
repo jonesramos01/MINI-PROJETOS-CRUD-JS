@@ -21,14 +21,17 @@ function imc(){
     //1) Verificar se nome está vazio ou não; "Acessa o valor dentro da variável":
     if(txtnome.value == "" && txtalt.value == "" && txtpes.value == ""){
         //Teste: 
-        //alert("Preencha todos os campos!")
-        res.textContent = "Preencha todos os campos!"
+        //alert("Preencha todos os campos!");
+        res.textContent = "Preencha todos os campos!";
 
     } else {
         //Teste:
         //alert("Valores preenchidos!");
-        res.textContent = "Valores preenchidos!"
+        //res.textContent = "Valores preenchidos!";
+
+        const valorIMC = (txtpes / (txtalt * txtalt));
         
+        res.textContent = valorIMC;
     }
     //Ou:
     /*
